@@ -2,11 +2,11 @@ export function injectHeader() {
     const header = `
     <header>
         <div class="carousel-container">
-            <img src="/assets/title.png" class="logo-overlay" alt="Logo">
+            <img src="/title.png" class="logo-overlay" alt="Logo">
             <div id="headerCarousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="/assets/carrousel/1.png" class="d-block w-100" alt="Slide 1">
+                        <img src="/carrousel/1.png" class="d-block w-100" alt="Slide 1">
                     </div>
                 </div>
 <!--                <button class="carousel-control-prev" type="button" data-bs-target="#headerCarousel" data-bs-slide="prev">-->
