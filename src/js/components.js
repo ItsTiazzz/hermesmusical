@@ -33,7 +33,7 @@ export function injectNavbar() {
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav w-100">
                     <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/info">Info</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/about">About us</a></li>
                     <li class="nav-item"><a class="nav-link" href="/rehearsals">Rehearsals</a></li>
                 </ul>
             </div>
