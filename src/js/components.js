@@ -9,12 +9,6 @@ export function injectHeader() {
                         <img src="/carrousel/1.png" class="d-block w-100" alt="Slide 1">
                     </div>
                 </div>
-<!--                <button class="carousel-control-prev" type="button" data-bs-target="#headerCarousel" data-bs-slide="prev">-->
-<!--                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>-->
-<!--                </button>-->
-<!--                <button class="carousel-control-next" type="button" data-bs-target="#headerCarousel" data-bs-slide="next">-->
-<!--                    <span class="carousel-control-next-icon" aria-hidden="true"></span>-->
-<!--                </button>-->
             </div>
         </div>
     </header>`
@@ -52,7 +46,7 @@ export function injectFooter() {
           <a href="https://instagram.com" target="_blank"
           class="me-3 text-reset"><i data-lucide="instagram"></i></a>
           <a href="/discord" target="_blank" 
-          class="me-3 text-reset"><img height="24" width="24" 
+          class="me-3 text-reset"><img height="24" width="24" alt="Discord Logo"
           src="https://cdn.simpleicons.org/discord/b2b5b9" /></a>
         </div>
       </section>
