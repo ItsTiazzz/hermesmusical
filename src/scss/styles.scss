@@ -20,3 +20,102 @@ body {
 footer {
   margin-top: auto;
 }
+
+.header {
+  height: 200px;
+  width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.container {
+  margin: 20px auto;
+}
+
+.logo-overlay {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  height: 120px;
+}
+
+.carousel-container {
+  position: relative;
+  min-height: 200px;
+  max-height: 400px;
+  height: 20vh;
+}
+
+.carousel-container .carousel,
+.carousel-container .carousel-inner,
+.carousel-container .carousel-item,
+.carousel-container .carousel-item img {
+  min-height: 200px;
+  max-height: 400px;
+  height: 20vh;
+  object-fit: cover;
+}
+
+.navbar {
+  background-color: #ffce81 !important;
+  height: 40px;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.navbar-nav .nav-item {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.navbar-nav .nav-item .active {
+  flex-grow: 1;
+  text-align: center;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-item:nth-child(1) .nav-link { background-color: #b76000; }
+.navbar-nav .nav-item:nth-child(2) .nav-link { background-color: #e67f00; }
+.navbar-nav .nav-item:nth-child(3) .nav-link { background-color: #f59701; }
+
+.navbar-nav .nav-link {
+  color: white !important;
+}
+
+@media (max-width: 991px) {
+  .navbar-nav {
+    flex-direction: column;
+  }
+
+  .navbar-nav .nav-link {
+    background-color: #001f3f !important;
+    padding: 10px;
+  }
+
+  .navbar .navbar-nav .nav-link {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 0.9rem;
+    line-height: 1;
+  }
+}
+
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.5);
+  padding: 0.2rem 0.5rem;
+  width: 36px;
+  height: 36px;
+  margin-left: auto;
+}
+
+.navbar-toggler-icon {
+  width: 15px;
+  height: 15px;
+}
