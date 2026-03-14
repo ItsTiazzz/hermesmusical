@@ -9,7 +9,7 @@ export default {
             input: {
                 main: resolve(__dirname, 'src/index.html'),
                 discord: resolve(__dirname, 'src/discord.html'),
-                info: resolve(__dirname, 'src/info.html'),
+                about: resolve(__dirname, 'src/about.html'),
                 rehearsals: resolve(__dirname, 'src/rehearsals.html'),
             }
         }
