@@ -9,8 +9,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "ItsTiazzz Productions",
+  "license": "TYSPAL-2.0",
   "devDependencies": {
     "sass": "^1.97.3",
     "vite": "^7.3.1"
