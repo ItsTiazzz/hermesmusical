@@ -41,6 +41,16 @@ footer {
   transform: translate(-50%, -50%);
   z-index: 10;
   height: 120px;
+  width: auto;
+  max-width: min(70vw, 520px);
+}
+
+@media (max-width: 768px) {
+  .logo-overlay {
+    left: 50%;
+    max-width: 92vw;
+    height: auto;
+  }
 }
 
 .carousel-container {
@@ -61,7 +71,7 @@ footer {
 }
 
 .navbar {
-  background-color: #ffce81 !important;
+  background-color: #c9a263 !important;
   height: 40px;
   min-height: 40px;
   display: flex;
