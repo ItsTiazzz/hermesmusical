@@ -72,3 +72,11 @@ export function injectLucide() {
     });
 }
 
+export function injectBootstrap() {
+    return new Promise((resolve) => {
+        const script = document.createElement('script');
+        script.src = 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js';
+        script.onload = () => resolve();
+        document.head.appendChild(script);
+    });
+}
