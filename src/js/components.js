@@ -43,7 +43,7 @@ export function injectFooter() {
         <div>
           <a href="https://youtube.com/@HermesTheMusical" target="_blank" 
           class="me-3 text-reset"><img height="20" width="20" src="https://cdn.simpleicons.org/youtube/FF0033" /></a>
-          <a href="https://instagram.com" target="_blank"
+          <a href="https://instagram.com/hermesthemusical" target="_blank"
           class="me-3 text-reset"><img height="20" width="20" src="https://cdn.simpleicons.org/instagram/F77737" /></a>
           <a href="/discord" target="_blank" 
           class="me-3 text-reset"><img height="24" width="24" src="https://cdn.simpleicons.org/discord/5865F2" /></a>
