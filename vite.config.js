@@ -11,6 +11,7 @@ export default {
                 discord: resolve(__dirname, 'src/discord.html'),
                 about: resolve(__dirname, 'src/about.html'),
                 rehearsals: resolve(__dirname, 'src/rehearsals.html'),
+                "404": resolve(__dirname, "src/404.html"),
             }
         }
     },

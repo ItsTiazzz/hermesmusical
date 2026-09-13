@@ -2,7 +2,7 @@ export function injectHeader() {
     const header = `
     <header>
         <div class="carousel-container">
-            <img src="/title.png" class="logo-overlay" alt="Logo">
+            <a href="/"><img src="/title.png" class="logo-overlay" alt="Logo"></a>
             <div id="headerCarousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -42,12 +42,11 @@ export function injectFooter() {
       <section class="d-flex justify-content-center p-2 border-bottom">
         <div>
           <a href="https://youtube.com/@HermesTheMusical" target="_blank" 
-          class="me-3 text-reset"><i data-lucide="youtube"></i></a>
+          class="me-3 text-reset"><img height="20" width="20" src="https://cdn.simpleicons.org/youtube/FF0033" /></a>
           <a href="https://instagram.com" target="_blank"
-          class="me-3 text-reset"><i data-lucide="instagram"></i></a>
+          class="me-3 text-reset"><img height="20" width="20" src="https://cdn.simpleicons.org/instagram/F77737" /></a>
           <a href="/discord" target="_blank" 
-          class="me-3 text-reset"><img height="24" width="24" alt="Discord Logo"
-          src="https://cdn.simpleicons.org/discord/b2b5b9" /></a>
+          class="me-3 text-reset"><img height="24" width="24" src="https://cdn.simpleicons.org/discord/5865F2" /></a>
         </div>
       </section>
       <div class="text-center p-2">
