@@ -47,6 +47,10 @@ export function injectFooter() {
           class="me-3 text-reset"><img height="20" width="20" src="https://cdn.simpleicons.org/instagram/F77737" /></a>
           <a href="/discord" target="_blank" 
           class="me-3 text-reset"><img height="24" width="24" src="https://cdn.simpleicons.org/discord/5865F2" /></a>
+          <a href="https://bsky.app/profile/hermesthemusical.bsky.social" target="_blank" 
+          class="me-3 text-reset"><img height="24" width="24" src="https://cdn.simpleicons.org/bluesky/1185FE" /></a>
+          <a href="mailto:hermes@tiazzz.me" target="_blank" 
+          class="me-3 text-reset"><i data-lucide="mail"></i></a>
         </div>
       </section>
       <div class="text-center p-2">
